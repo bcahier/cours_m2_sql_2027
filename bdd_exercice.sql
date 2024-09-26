@@ -23,6 +23,7 @@ SET default_table_access_method = heap;
 --
 -- Name: capteurs; Type: TABLE; Schema: public; Owner: postgres
 --
+CREATE EXTENSION postgis;
 
 CREATE TABLE public.capteurs (
     id integer NOT NULL,
