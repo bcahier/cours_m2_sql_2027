@@ -1,9 +1,0 @@
-1. importer la base de données avec psql
---ouvrir une invite de commande 
-
-cd "C:\Program Files\PostgreSQL\14\bin"
-"./psql.exe" -U postgres -h localhost -p 5432 -d postgres -f "emplacement/fichier/bdd_exercice.sql"
---> Mot de passe pour l'utilisateur postgres : test
-
---normalement la base de données a été importée
---> se rendre sur pgAdmin
